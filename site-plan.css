@@ -2,11 +2,11 @@
 
 :root {
     --primary-color: #DAD7CD;
-    --secondary-color: #A3B18A;
+    --secondary-color: #3A5A40;
     --accent1-color: #588157;
-    --accent2-color: #3A5A40;
+    --accent2-color: #A3B18A;
     --heading-font: "Raleway";
-    --paragraph-font: Proza Libre
+    --paragraph-font: "Proza Libre"
 }
 
 html {
@@ -42,7 +42,7 @@ header {
 }
 
 header>h1 {
-    color: #588157
+    color: #DAD7CD
 }
 
 p {
@@ -102,10 +102,10 @@ nav a {
 
 nav a:link,
 nav a:visited {
-    color:#A3B18A
+    color: #A3B18A
 }
 
 nav a:hover {
     color: #3A5A40;
-    background-color:#DAD7CD
+    background-color: #DAD7CD
 }
