@@ -3,7 +3,7 @@
   }
   
   body {
-    font-size: 16 rem;
+    font-size: 16px;
     color: #333;
     background-color: #eee;
     height: 100vh;
@@ -35,7 +35,7 @@
   aside {
     font-style: italic;
     letter-spacing: 1.2pt;
-  
+  }
   
   footer {
     border-bottom: 1px solid #000;
