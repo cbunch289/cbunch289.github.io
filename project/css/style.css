@@ -1,0 +1,41 @@
+html {
+  background-color: #E7FFD3;
+
+  font-size: 20px;
+  /* <!-- font-style: italic; USE FOR TITLES --> */
+}
+
+h1 {
+  font-family: "Playfair Display", serif;
+  color: #0A0A0A;
+  font-weight: bolder
+}
+
+h2 {
+  font-family: "Playfair Display", serif;
+  color: #4F4742;
+  font-style: italic
+}
+
+head,
+header,
+main,
+footer {
+  text-align: center;
+  margin: auto;
+  max-width: 960px;
+  border: 6px #A1C49B;
+  padding: 20px
+}
+
+nav {
+  text-align: left
+}
+/* div
+  {
+  width: 100%;
+  height: auto;
+  background-image: url(images\10_baglioni_londra_destinazione_RESIZED(2).jpg);
+  background-size: 100%, 100%;
+}
+*/
