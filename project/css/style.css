@@ -23,14 +23,15 @@ header {
 }
 header nav ul {
   display: flex;
-  align-items: center:
-  list-style: none;
+  align-items: center;
+  list-style-type: none;
 }
 header nav ul li a {
   color: red;
   text-decoration: none;
   display: block;
   padding: .95rem;
+  list-style-type: none;
 }
 #left {
   margin-left: 20px;
@@ -72,6 +73,7 @@ img.one {
   width: 2%;
   margin: .5em;
   padding: none;
+  border-radius: 12px;
 }
 img.two {
   height: 100%;
@@ -86,9 +88,12 @@ img.three {
   width: 20%;
 }
 img.four {
+  display: block;
   width: 35%;
   height: 35%;
   float: left;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 p.first {
   margin: 20px;
@@ -98,10 +103,11 @@ p.first {
   text-align: left;
 }
 p.second {
+  display: block;
   margin: 20px;
   width: 60%;
   border: 5px black;
-  padding: 20px;
+  padding: 70px;
   text-align: left;
 }
 /*head,
