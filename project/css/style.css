@@ -1,10 +1,60 @@
 html {
   background-color: #E7FFD3;
-
-  font-size: 20px;
+  font-size: 16px;
   /* <!-- font-style: italic; USE FOR TITLES --> */
 }
+header h1 {
+  text-align: left;
+  display: flex;
+  
+}
 
+header,
+main,
+footer {
+  max-width: 960px;
+  margin: 0 auto;
+}
+header {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  border: 3px solid green;
+}
+header nav ul {
+  display: flex;
+  align-items: center:
+  list-style: none;
+}
+header nav ul li a {
+  color: red;
+  text-decoration: none;
+  display: block;
+  padding: .95rem;
+}
+#left {
+  margin-left: 20px;
+  margin-right: 20px;
+  width: 60%;
+  border: 5px black;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+}
+.active {
+  color: blue;
+  border-bottom: blue;
+
+}
+#right {
+  margin-left: auto;
+  margin-right: 20px;
+  width: 60%;
+  border: 5px black;
+  padding-left: auto;
+  padding-right: 20px;
+  text-align: left;
+}
 h1 {
   font-family: "Playfair Display", serif;
   color: #0A0A0A;
@@ -17,7 +67,44 @@ h2 {
   font-style: italic
 }
 
-head,
+img.one {
+  height: 2%;
+  width: 2%;
+  margin: .5em;
+  padding: none;
+}
+img.two {
+  height: 100%;
+  width: 100%;
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+img.three {
+  float: right;
+  height: 20%;
+  width: 20%;
+}
+img.four {
+  width: 35%;
+  height: 35%;
+  float: left;
+}
+p.first {
+  margin: 20px;
+  width: 60%;
+  border: 5px black;
+  padding: 70px;
+  text-align: left;
+}
+p.second {
+  margin: 20px;
+  width: 60%;
+  border: 5px black;
+  padding: 20px;
+  text-align: left;
+}
+/*head,
 header,
 main,
 footer {
@@ -26,19 +113,12 @@ footer {
   max-width: 960px;
   border: 6px #A1C49B;
   padding: 20px
-}
+}*/
+
 
 nav {
   text-align: left
 }
-
-
- 
-/* div
-  {
-  width: 100%;
-  height: auto;
-  background-image: url(images\10_baglioni_londra_destinazione_RESIZED(2).jpg);
-  background-size: 100%, 100%;
+footer {
+  text-align: center;
 }
-*/
