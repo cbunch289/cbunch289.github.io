@@ -3,6 +3,7 @@ html {
   font-size: 16px;
   /* <!-- font-style: italic; USE FOR TITLES --> */
 }
+
 header h1 {
   text-align: left;
   display: flex;
@@ -16,19 +17,21 @@ footer {
   max-width: 960px;
   margin: 0 auto;
 }
+
 header {
   max-width: 960px;
   display: flex;
   align-items: center;
   padding: 0px;
-  /*border: 3px solid green;*/
   background-color: rgb(166, 243, 191);
 }
+
 header nav ul {
   display: flex;
   align-items: center;
   list-style-type: none;
 }
+
 header nav ul li a {
   color: red;
   text-decoration: none;
@@ -36,6 +39,7 @@ header nav ul li a {
   padding: .95rem;
   list-style-type: none;
 }
+
 div.firstdiv {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -47,14 +51,16 @@ header nav li a:hover {
   color: rgb(18, 16, 173);
   border-bottom: blue;
 }
+
 .banner-box {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr;
   width: 960px;
   height: auto;
-  
+
 }
+
 .action {
   grid-column: 1;
   grid-row: 1;
@@ -69,11 +75,13 @@ header nav li a:hover {
   padding-bottom: 2em;
   color: rgb(0, 8, 122)
 }
+
 .action button {
   padding: .5em;
   background-color: #4F4742;
-  color:white;
+  color: white;
 }
+
 h1 {
   font-family: "Playfair Display", Times, serif;
   color: rgb(107, 109, 110);
@@ -86,6 +94,7 @@ h2 {
   font-style: italic;
   text-align: center;
 }
+
 img.one {
   height: auto;
   width: 60px;
@@ -93,6 +102,7 @@ img.one {
   padding: 2px;
   border-radius: 12px;
 }
+
 img.two {
   grid-column: 1 / 3;
   grid-row: 1;
@@ -102,6 +112,7 @@ img.two {
   margin: 0;
   padding: 0;
 }
+
 img.three {
   justify-items: center;
   margin-left: auto;
@@ -121,45 +132,56 @@ img.four {
   margin-bottom: auto;
   height: auto;
   width: auto;
-  
+
 }
-img.three, img.four {
+
+img.three,
+img.four {
   border: 1px solid #A1C49B;
   padding: 10px;
   box-shadow: 5px 5px 5px #4F4742;
   background-color: rgb(166, 243, 191);
 }
+
 .first {
   grid-column-start: 1;
   grid-column-end: 2;
   grid-row-start: 1;
   grid-row-end: 2;
 }
+
 .second {
   grid-column-start: 2;
   grid-column-end: 3;
   grid-row-start: 2;
   grid-row-end: 3;
 }
+
 .third {
   grid-column-start: 1;
   grid-column-end: 3;
   grid-row-start: 3;
   grid-row-end: 4;
 }
-p.first, p.second, p.third {
+
+p.first,
+p.second,
+p.third {
   margin: auto;
   height: 70%;
   font-family: "Playfair Display", Times, serif;
   text-align: left;
   font-size: 20px;
 }
+
 p.second {
   padding-left: 2em;
 }
+
 p.third {
   height: 30%;
 }
+
 /*head,
 header,
 main,
@@ -175,13 +197,15 @@ footer {
 nav {
   text-align: left
 }
+
 footer {
   display: grid;
   grid-template-columns: 20px 1fr 1fr;
   background-color: rgb(166, 243, 191);
   text-align: center;
-  
+
 }
+
 .pics {
   grid-column-start: 1;
   grid-column-end: 2;
@@ -189,6 +213,7 @@ footer {
   margin-top: 7.9em;
 
 }
+
 .feet {
   grid-column-start: 2;
   grid-column-end: 3;
@@ -200,6 +225,7 @@ footer {
   padding: 2em;
   margin-left: 4em;
 }
+
 .social {
   grid-column-start: 3;
   grid-column-end: 4;
@@ -208,12 +234,17 @@ footer {
   width: 50%;
   padding-right: 1em;
 }
+
 a {
   text-decoration: none;
 }
-#one, #two, #three {
+
+#one,
+#two,
+#three {
   padding: 6px;
 }
+
 @media screen and (max-width: 550px) {
   .body {
     display: block;
