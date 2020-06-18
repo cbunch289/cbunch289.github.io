@@ -1,0 +1,158 @@
+/* palette A
+{"Black":"000000",
+    "Dark Electric Blue": "586f7c",
+    "Powder Blue":"b8dbd9",
+    "Ghost White":"f4f4f9",
+    "Falu Red":"7b1a15"}
+
+Palette B
+{"Black":"000000",
+    "Orange Peel":"ff9f1c",
+    "Tiffany Blue":"2ec4b6",
+    "Ghost White":"f4f4f9",
+    "Falu Red":"7b1a15"}
+
+Roboto Condensed
+
+font-family: 'Roboto Condensed', sans-serif;
+
+*/
+header {
+    max-width: 960px;
+    align-items: center;
+    padding: 0px;
+    background-color: #7B1A15;
+    color: #f4f4f9;
+}
+
+main img.one {
+    padding: 0px;
+    background-color: #7B1A15;
+}
+
+
+:root {
+    --primary-color: #f4f4f9;
+    --secondary-color: #000000;
+    --accent1-color: #A43312;
+    --accent2-color: #ff9f1c;
+}
+
+html {
+    background-color: var(--primary-color);
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+body {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 1em
+}
+
+img {
+    max-width: 100%
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--heading-font);
+    color:
+}
+
+header {
+    padding: 1em;
+    text-align: center;
+    font-size: 1em;
+    color: var(--accent2-color);
+    background-color: #000000;
+}
+
+header>h1 {
+    color:
+}
+
+p {
+    font-family: var(--paragraph-font);
+    color: ;
+    padding: 1em
+}
+
+.colors {
+    width: 100%;
+    min-width: 350px;
+    margin: auto;
+    text-align: center;
+}
+
+.colors th {
+    background-color: #999
+}
+
+.colors td {
+    width: 25%;
+    height: 3em
+}
+
+main table td.secondary,
+.accent1 {
+    color: #f4f4f9;
+}
+
+.primary {
+    background-color: var(--primary-color)
+}
+
+.secondary {
+    background-color: var(--secondary-color)
+}
+
+.accent1 {
+    background-color: var(--accent1-color)
+}
+
+.accent2 {
+    background-color: var(--accent2-color)
+}
+
+nav {
+    text-align: center;
+    background-color: #000000;
+    line-height: 3em;
+    font-size: 1.2em;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    align-items: inline;
+    float: center;
+}
+
+.table {
+    display: table;
+    margin: auto;
+}
+
+nav a {
+    color: #ff9f1c;
+    padding: 1em;
+    min-width: 120px;
+}
+
+nav a:link,
+nav a:visited {
+    color: #ff9f1c;
+}
+
+nav a:hover {
+    color: #f4f4f9;
+}
+footer {
+    padding-top: 20px;
+    text-align: center;
+}

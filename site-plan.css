@@ -40,6 +40,10 @@ header {
     color: var(--accent2-color);
     background-color: #A3B18A
 }
+header div {
+    font-family: var(--heading-font);
+    color: #DAD7CD;
+}
 
 header>h1 {
     color: #DAD7CD
