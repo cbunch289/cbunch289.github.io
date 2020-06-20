@@ -52,6 +52,40 @@ header nav li a:hover {
   border-bottom: blue;
 }
 
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: rgb(166, 243, 191);
+  color:#000;
+  min-width: 160px;
+  padding: 1.4em 1.4em;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+div.amen {
+  margin-top: 3em;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+ 
+}
+
+main div h2.active:hover {
+  color: #999;
+  border-bottom: #999;
+
+}
+
 .banner-box {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -95,6 +129,10 @@ h2 {
   text-align: center;
 }
 
+h2.active {
+  text-align: left;
+  padding-left: 2em;
+}
 img.one {
   height: auto;
   width: 60px;
@@ -133,6 +171,21 @@ img.four {
   height: auto;
   width: auto;
 
+}
+
+img.five,
+img.six,
+img.seven,
+img.eight,
+img.nine {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  margin: 4em;
+  width: 400px;
+  height: auto;
+  border: 1px solid #000;
+  box-shadow: 7px 7px 7px #4F4742;
+  background-color: white;
 }
 
 img.three,
