@@ -32,6 +32,7 @@ header nav ul {
   display: flex;
   align-items: center;
   list-style-type: none;
+  margin-left: 40px;
 }
 
 header nav ul li a {
@@ -52,6 +53,10 @@ div.firstdiv {
 header nav li a:hover {
   color: rgb(18, 16, 173);
   border-bottom: blue;
+}
+
+header nav li a:active {
+  border: 2px #999 solid;
 }
 
 .dropdown {
