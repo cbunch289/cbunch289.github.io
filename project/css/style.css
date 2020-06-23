@@ -189,6 +189,7 @@ img.nine {
   border: 1px solid #000;
   box-shadow: 7px 7px 7px #4F4742;
   background-color: white;
+  border-radius: 20px;
 }
 
 img.three,
@@ -201,13 +202,18 @@ img.four {
 
 img.ten {
   margin-top: 4em;
-  border-right: 10px double #999 ;
-  border-bottom: 5px double #999 ;
+  border-right: 10px double #999;
+  border-bottom: 5px double #999;
   border-top: 5px double rgb(219, 219, 219);
   border-left: 10px double rgb(219, 219, 219);
   padding: 15px;
 
 }
+
+.eleven {
+  border-radius: 20px;
+}
+
 .first {
   grid-column-start: 1;
   grid-column-end: 2;
@@ -227,6 +233,15 @@ img.ten {
   grid-column-end: 3;
   grid-row-start: 3;
   grid-row-end: 4;
+}
+
+.grid-container {
+  text-align: left;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  margin-top: 20px;
+  margin-bottom: 40px;
 }
 
 p.first,
@@ -305,11 +320,13 @@ textarea {
 button {
   margin-left: .5em;
 }
+
 .field {
   align-items: center;
   margin-left: 30%;
   margin-right: auto;
 }
+
 .legend {
   align-items: center;
   margin-left: auto;
