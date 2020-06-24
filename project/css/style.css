@@ -58,7 +58,7 @@ header nav li a:hover {
 header nav li a:active {
   border: 2px #999 solid;
 }
-.selected {
+nav ul li a.selected {
   border: 2px #999 solid;
 }
 
