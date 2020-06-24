@@ -58,6 +58,9 @@ header nav li a:hover {
 header nav li a:active {
   border: 2px #999 solid;
 }
+.selected {
+  border: 2px #999 solid;
+}
 
 .dropdown {
   position: relative;
