@@ -206,13 +206,14 @@ img.four {
 }
 
 img.ten {
-  margin-top: 4em;
   border-right: 10px double #999;
   border-bottom: 5px double #999;
   border-top: 5px double rgb(219, 219, 219);
   border-left: 10px double rgb(219, 219, 219);
   padding: 15px;
-
+  width: 300px;
+  height: 497.8px;
+  opacity: .4; 
 }
 
 .eleven {
@@ -357,10 +358,13 @@ footer {
 
 .lgrid {
   grid-column: 1 / 2;
+  margin-left: 7em;
 }
 
 .rgrid {
+  display: flex;
   grid-column: 2 / 3;
+  align-items: center;
 }
 
 .pics {
