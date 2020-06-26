@@ -372,14 +372,6 @@ footer {
   align-items: center;
 }
 
-.pics {
-  grid-column-start: 1;
-  grid-column-end: 2;
-  margin-left: 5.6em;
-  margin-top: 7.9em;
-
-}
-
 .feet {
   grid-column-start: 2;
   grid-column-end: 3;
@@ -418,5 +410,6 @@ a {
   div.firstdiv,
   footer {
     display: block;
+    grid-template-columns: 1fr;
   }
 }
