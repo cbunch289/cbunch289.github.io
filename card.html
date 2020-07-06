@@ -1,0 +1,77 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+
+
+<head>
+    <style>
+        img {
+            max-width: 100%;
+        }
+
+        .card {
+            width: 320px;
+            border-radius: 10px;
+            box-shadow: 1px 1px 4px 1px #888;
+            background-color: white;
+            overflow: hidden;
+            margin-top: 4em;
+            margin-left: 4em;
+        }
+
+        p {
+            font-family: sans-serif;
+            padding-left: 2em;
+            padding-right: 2em;
+        }
+
+        .viewbutton {
+            margin-left: 2em;
+            margin-bottom: 1.5em;
+            margin-right: none;
+            border-color: #ccc;
+        }
+
+        .editbutton {
+            margin-left: none;
+            border: 1px 1px 1px 1px;
+            border-color: #ccc;
+        }
+
+        span {
+            justify-items: right;
+            margin-right: 2em;
+            margin-left: 6em;
+        }
+    </style>
+    <script>
+        document.getElementById("myDIV").addEventListener("transitionend", myFunction);
+
+function myFunction(event) {
+  this.innerHTML = event.elapsedTime + " seconds";
+}
+    </script>
+</head>
+
+<body>
+    <article class="card">
+        <img src="https://picsum.photos/320/240" alt="a ramdon photo from picsum">
+        <p>This is a wider card with supporting text below as a natural lead-in with additional content. This conent is
+            a bit longer.</p>
+
+
+        <footer>
+            <button class="viewbutton">
+                View
+            </button>
+            <button class="editbutton">
+                Edit
+            </button>
+            <span id="myDIV">9 seconds</span>
+        </footer>
+    </article>
+</body>
+
+</html>
