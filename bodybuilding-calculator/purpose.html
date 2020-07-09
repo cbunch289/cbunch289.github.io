@@ -8,22 +8,21 @@
     <meta name="description"
         content="Use the Bodybuilding Calculator - a free, online tool to aid what you train for and which muscles you target. See suggested exercises based off what equipment is available.">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="#">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <header>
         <div class="homelink">
-            <a href="home-calculator.html">
-                <h1>Bodybuilding</h1>
-                <img src="images\rsz_logo2.png">
-                <h1>Calculator</h1>
-            </a>
+            <a class="one" href="home-calculator.html">Bodybuilding<img class="first" src="images\rsz_logo2.png"
+                    alt="logo">Calculator</a>
         </div>
         <nav>
             <ul>
                 <li><a class="active" href="purpose.html">Purpose</a></li>
+                <li>+ / -</li>
                 <li><a class="active" href="equipment.html">Equipment</a></li>
+                <li>+ / -</li>
                 <li><a class="active" href="muscle-groups.html">Muscle Group</a></li>
             </ul>
         </nav>
@@ -32,59 +31,85 @@
         <div class="banner">
             <img src="images\banner.jpg" alt="a banner photo of a barbell with weights">
         </div>
-        <div>
-            <h2>Grow Muscle</h2>
-            <p>
-                by training for growth. Training for impressive growth occurs with calculated effort. Muscles exhausted after
-                8 to 12 consecutive repetitions will grow faster. As you work up to 3 sets of a given exercise you will
-                fully
-                tear all the muscle fibers and see significant growth with continuous use. Strength increases
-                moderately.
-                Endurance increases minimally, but overall appearance will develop far more effectively when these rules
-                are applied.
-            </p>
-            <img src="images\rsz_Arnold_Schwarzenegger_1974.jpg" alt="a picture of a bodybuilder">
-        </div>
-        <div>
-            <h2>Increase Strength</h2>
-            <p>
-                by training for strength. Training for greater power occurs with calculated effort. Muscles exhausted
-                after 3 to 5 consecutive repetitions will increase how heavy the load is being moved. As you work up to
-                3 sets of a given exercise you will fully tear all the muscle fibers and see significant increase in
-                strength with continuous use. Growth and overall appearance will develop moderately. Endurance increases
-                minimally, but ability to handle massive loads will be much more achievable when these rules are
-                applied.
-            </p>
-            <img src="images\rsz_powerlifter.jpg" alt="a picture of a powerlifter lifitng heavy weight">
-        </div>
-        <div>
-            <h2>Improve Endurance</h2>
-            <p>
-                by training for endurance. Training to endure longer occurs with calculated effort. Muscles exhausted
-                after 15 to 20 repetitions will withstand lengthier stress before needing rest. As you work up to 3 sets
-                of a given exercise you will fully tear all the muscle fibers and see a dramatic improvement in duration
-                and stamina. Endurance will improve. Growth will be minimal. Strength will increase minimally as well,
-                but overall fitness will improve as well as ability to do consecutive rounds over frequent points of
-                time.
-            </p>
-            <img src="images\rsz_gymnast.jpg" alt="a picture of a gymnast">
+        <div class="gridmaster">
+                <div class="grid1">
+                    <h2>Grow Muscle</h2>
+                    <p>
+                        ...by training for growth. Training for impressive growth occurs with calculated effort. Muscles
+                        exhausted
+                        after <b>8 to 12 </b>consecutive repetitions will grow faster. As you work up to 3 sets of a given exercise
+                        you
+                        will
+                        fully
+                        tear all the muscle fibers and see significant growth with continuous use. Strength increases
+                        moderately.
+                        Endurance increases minimally, but overall appearance will develop far more effectively when
+                        these
+                        rules
+                        are applied.
+                    </p>
+                </div>
+                <img class="grid2" src="images\rsz_Arnold_Schwarzenegger_1974.jpg"
+                    alt="a picture of a bodybuilder">
+            
+        
+                <div class="grid3">
+                    <h2>Increase Strength</h2>
+                    <p>
+                        ...by training for strength. Training for greater power occurs with calculated effort. Muscles
+                        exhausted
+                        after <b>3 to 5 </b> consecutive repetitions will increase how heavy the load is being moved. As you
+                        work up
+                        to
+                        3 sets of a given exercise you will fully tear all the muscle fibers and see significant
+                        increase in
+                        strength with continuous use. Growth and overall appearance will develop moderately. Endurance
+                        increases
+                        minimally, but ability to handle massive loads will be much more achievable when these rules are
+                        applied.
+                    </p>
+                </div>
+                <img class="grid4" src="images\rsz_powerlifter.jpg" alt="a picture of a powerlifter lifitng heavy weight">
+            
+            
+                <div class="grid5">
+                    <h2>Improve Endurance</h2>
+                    <p>
+                        ...by training for endurance. Training to endure longer occurs with calculated effort. Muscles
+                        exhausted
+                        after <b>15 to 20 </b> consecutive repetitions will withstand lengthier stress before needing rest. As you work up
+                        to 3
+                        sets
+                        of a given exercise you will fully tear all the muscle fibers and see a dramatic improvement in
+                        duration
+                        and stamina. Endurance will improve. Growth will be minimal. Strength will increase minimally as
+                        well,
+                        but overall fitness will improve as well as ability to do consecutive rounds over frequent
+                        points of
+                        time.
+                    </p>
+                </div>
+                <img class="grid6" src="images\rsz_gymnast.jpg" alt="a picture of a gymnast">
+            
         </div>
     </main>
     <footer>
         <nav>
             <ul>
-                <li class="button">
+                <li>
                     <button onclick="window.print()">Print</button>
                 </li>
+                <li>+ / -</li>
                 <li>
                     <div class="dropdown">
                         <button class="dropbtn">Share</button>
                         <div class="dropdown-content">
-                            <a href="images\facebook.png"></a>
-                            <a href="images\twitter.png"></a>
+                            <a href="https://www.facebook.com/"><img class="mediaicon" src="images\facebook.png"></a>
+                            <a href="https://twitter.com/explore"><img class="mediaicon" src="images\twitter.png"></a>
                         </div>
                     </div>
                 </li>
+                <li>+ / -</li>
                 <li>
                     <div class="dropdown2">
                         <button class="dropbtn2">Contact Us</button>

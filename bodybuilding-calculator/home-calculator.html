@@ -8,22 +8,20 @@
     <meta name="description"
         content="Use the Bodybuilding Calculator - a free, online tool to aid what you train for and which muscles you target. See suggested exercises based off what equipment is available.">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="#">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <header>
         <div class="homelink">
-            <a href="home-calculator.html">
-                <h1>Bodybuilding</h1>
-                <img src="images\rsz_logo2.png">
-                <h1>Calculator</h1>
-            </a>
+            <a class="one" href="home-calculator.html">Bodybuilding<img class="first"src="images\rsz_logo2.png" alt="logo">Calculator</a>
         </div>
         <nav>
             <ul>
                 <li><a class="active" href="purpose.html">Purpose</a></li>
+                <li>+ / -</li>
                 <li><a class="active" href="equipment.html">Equipment</a></li>
+                <li>+ / -</li>
                 <li><a class="active" href="muscle-groups.html">Muscle Group</a></li>
             </ul>
         </nav>
@@ -38,15 +36,21 @@
                     <li>
                         <label for="purpose">Purpose:</label>
                         <input type="radio" id="inc" name="user_intent_value" value="increased muscle">Increased Muscle
+                        <br>
                         <input type="radio" id="str" name="user_intent_value" value="strength">Strength
+                        <br>
                         <input type="radio" id="end" name="user_intent_value" vlaue="endurance">Endurance
                     </li>
+                    <br>
                     <li>
                         <label for="equipment">Equipment:</label>
                         <input type="radio" id="free" name="user_equip_value" value="free weights">Free weights
+                        <br>
                         <input type="radio" id="mach" name="user_equip_value" value="machines">Machines
+                        <br>
                         <input type="radio" id="budg" name="user_equip_value" value="i'm on a budget">I'm on a budget
                     </li>
+                    <br>
                     <li>
                         <label for="muscle group">Muscle Group:</label>
                         <select name="muscle group" id="muscle group">
@@ -67,7 +71,9 @@
                             </optgroup>
                         </select>
                     </li>
-                    <li class="button">
+                </ul>
+                <ul>
+                    <li class="calcbutton">
                         <button type="submit">Calculate</button>
                     </li>
                 </ul>
@@ -77,18 +83,20 @@
     <footer>
         <nav>
             <ul>
-                <li class="button">
+                <li>
                     <button onclick="window.print()">Print</button>
                 </li>
+                <li>+ / -</li>
                 <li>
                     <div class="dropdown">
                         <button class="dropbtn">Share</button>
                         <div class="dropdown-content">
-                          <a href="images\facebook.png"></a>
-                          <a href="images\twitter.png"></a>
+                          <a href="https://www.facebook.com/"><img class="mediaicon" src="images\facebook.png"></a>
+                          <a href="https://twitter.com/explore"><img class="mediaicon" src="images\twitter.png"></a>
                         </div>
-                      </div>
+                    </div>
                 </li>
+                <li>+ / -</li>
                 <li>
                     <div class="dropdown2">
                         <button class="dropbtn2">Contact Us</button>
