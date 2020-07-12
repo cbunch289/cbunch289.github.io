@@ -73,8 +73,11 @@ a.active {
     color: #000000;
 }
 
-h2 {
-    color: red;
+h2,
+.m1,
+.m2,
+.m3 {
+    color: #7B1A15;
 }
 
 .grid {
@@ -159,7 +162,28 @@ button:hover {
     margin-right: 1em;
 }
 
-.grid1 {
+.gridmaster2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto auto;
+    align-items: center;
+    grid-gap: 2em;
+    margin-top: 9em;
+    margin-bottom: 9em;
+}
+
+.gridmaster30,
+.gridmaster31,
+.gridmaster32 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(3, 300px);
+    margin-top: 9em;
+    margin-bottom: 9em;
+}
+
+.grid1,
+.egrid1 {
     grid-column: 1 / 2;
     grid-row: 1 / 2;
 }
@@ -169,7 +193,8 @@ button:hover {
     grid-row: 1 / 2;
 }
 
-.grid3 {
+.grid3,
+.egrid3 {
     grid-column: 1 / 2;
     grid-row: 2 / 3;
 }
@@ -179,6 +204,83 @@ button:hover {
     grid-row: 2 / 3;
 }
 
+.grid5,
+.egrid5 {
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+}
+
+.grid6 {
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+}
+
+.egrid1,
+.egrid3,
+.egrid5 {
+    font-size: 1.6em;
+    align-self: center;
+    padding-left: 56px;
+}
+.arms,
+.legs,
+.trunk {
+    font-size: 6em;
+    align-self: center;
+    justify-self: center;
+    grid-column: 1 / 2;
+    grid-row: 1 / 4;
+}
+
+main div div ul {
+    list-style-type: none;
+}
+
+
+.m1 {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+}
+
+.m2 {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+}
+
+.m3 {
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+}
+
+.m1,
+.m2,
+.m3 {
+    font-size: 4em;
+    align-self: center;
+    justify-self: right;
+    padding-right: 1.2em;
+}
+
+.img1 {
+    grid-column: 3 / 4;
+    grid-row: 1 / 2;
+}
+
+.img2 {
+    grid-column: 3 / 4;
+    grid-row: 2 / 3;
+}
+
+.img3 {
+    grid-column: 3 / 4;
+    grid-row: 3 / 4;
+} 
+
+.img1,
+.img2,
+.img3 {
+    align-self: center;
+}
 
 footer nav {
     border-top: 5px solid #000000;
