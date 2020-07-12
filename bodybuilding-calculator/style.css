@@ -255,7 +255,8 @@ main div div ul {
 .m1,
 .m2,
 .m3 {
-    font-size: 4em;
+    font-size: 2.5em;
+    font-weight: bold;
     align-self: center;
     justify-self: right;
     padding-right: 1.2em;
