@@ -85,6 +85,7 @@ h2,
     border-style: solid;
     border-color: #000000;
     border-width: 40px 4px;
+    border-bottom: fade;
     max-width: 300px;
     border-radius: 2.2em;
     padding-top: 50px;
@@ -109,6 +110,8 @@ label {
 input {
     display: inline-block;
 }
+
+/*I want to have the radio buttons make the matching text bolder when selected*/
 
 #str,
 #end,
