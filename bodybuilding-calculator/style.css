@@ -31,6 +31,7 @@ header {
     border-bottom: none;
     border-bottom: 5px solid #000000;
 }
+
 body {
     font-family: 'Roboto Condensed', sans-serif;
 }
@@ -113,6 +114,7 @@ input {
 
 /*I want to have the radio buttons make the matching text bolder when selected*/
 
+
 #str,
 #end,
 #mach,
@@ -187,6 +189,7 @@ button:hover {
     margin-top: 9em;
     margin-bottom: 9em;
 }
+
 
 .grid1,
 .egrid1 {
@@ -268,6 +271,10 @@ main div div ul {
     padding-right: 1.2em;
 }
 
+body header div img.first {
+    overflow: hidden;
+}
+
 .img1 {
     grid-column: 3 / 4;
     grid-row: 1 / 2;
@@ -329,8 +336,8 @@ footer nav ul li div div.dropdown-content {
     display: none;
     position: absolute;
     background-color: #f1f1f1;
-    min-width: 260px;
-    box-shadow: 0px 8px 16 px 0px #ccc;
+    min-width: 272px;
+    box-shadow: 0px 8px 16px 0px #ccc;
     z-index: 1;
 }
 
@@ -350,8 +357,5 @@ footer nav ul li div div.dropdown-content1 a {
 footer nav ul li div div.dropdown-content2 a {
     text-decoration: none;
     font-size: 20px;
-    padding-left: 20px;
-    padding-right: 10px;
-    padding-top: 10px;
+    padding: 20px;
 }
-
