@@ -12,6 +12,10 @@ img.first {
     margin-bottom: 0px;
 }
 
+img.banner {
+    max-width: 960px;
+}
+
 header div a.one {
     max-width: 960px;
     display: block;
@@ -332,6 +336,10 @@ footer nav ul li div div.dropdown-content {
      padding-top: 10px;
  }
 
+.test {
+ background-color: #bedbed;
+ color:#777777;
+}
  footer nav ul li div div.dropdown-content2 {
     display: none;
     position: absolute;
